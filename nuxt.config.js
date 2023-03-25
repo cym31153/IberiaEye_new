@@ -1,7 +1,7 @@
 export default {
   server: {
-    port: 2000, // default: 3000
-    host: '168.138.45.26' // default: localhost
+    port: 8000, // default: 3000
+    host: '0.0.0.0' // default: localhost
   },
 
   // https://go.nuxtjs.dev/ssr-mode
@@ -49,7 +49,7 @@ export default {
   // https://go.nuxtjs.dev/config-axios
   axios: {
     // https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: 'https://xxx.xxx.xxx/'
+    baseURL: 'http://inquisition.xsms.eu.org:2000/'
   },
 
   // https://go.nuxtjs.dev/pwa
